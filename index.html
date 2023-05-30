@@ -53,22 +53,52 @@
             display: flex;
             justify-content: space-between;
         }
+
+        /*.h-child {
+            border: 1px solid yellow;
+        }*/
         
         .logo {
             width: 7.06rem;
             height: 1.69rem;
         }
+
         .header-icons {
             width: 6.31rem;
             height: 1.69rem;
         }
+        
         .header-icons a:not(:last-child) {
             margin-right: 0.3rem;
         }
+        
         .nav-menu {
             width: auto;
             height: 1.69rem;
+            display: flex;
+            align-items: center;
+            display: none;
         }
+
+        .nav-menu ul {
+            padding-right: 2.2rem;
+            list-style: none;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 500;
+            display: flex;
+            gap: 1.7em;
+        }
+
+        .nav-menu li {
+            text-align: center;
+        }
+
+        .nav-menu a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
         .hero-content {
             width: 95%;
             height: 10.69rem;
@@ -100,6 +130,32 @@
         }
 
         @media (min-width:900px) {
+            .nav-menu {
+                width: auto;
+                height: 1.69rem;
+                display: flex;
+                align-items: center;
+            }
+    
+            .nav-menu ul {
+                padding-right: 2.2rem;
+                list-style: none;
+                font-family: 'Poppins', sans-serif;
+                font-size: 1.25rem;
+                font-weight: 500;
+                display: flex;
+                gap: 1.7em;
+            }
+    
+            .nav-menu li {
+                text-align: center;
+            }
+    
+            .nav-menu a {
+                text-decoration: none;
+                color: #fff;
+            }
+
             .hero-content {
                 width: 32.56rem;
                 height: 12.75rem;
@@ -111,11 +167,13 @@
                 text-align: center;
                 background-color: rgba(255, 255, 255, 0.80);
             }
+
             .hero-content h2 {
                 font-family: 'Poppins', sans-serif;
                 font-size: 1.88rem;
                 font-weight: 300;
             }
+
             .hero-content button {
                 font-family: 'Dosis', sans-serif;
                 font-size: 1rem;

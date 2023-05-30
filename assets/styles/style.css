@@ -104,16 +104,16 @@
         line-height: 2.06rem;
         margin-bottom: 0;
     }
-    .hero-content button {
+    .hero-content .button {
         margin: 0.80rem 0 1.1rem 0;
         font-family: 'Dosis', sans-serif;
         font-size: 1rem;
         font-weight: 500;
         line-height: 2.06rem;
         border: none;
-        outline: none;
         background: none;
         text-decoration: underline;
+        cursor: pointer;
     }
 
     /* desktop styling */
@@ -162,13 +162,13 @@
             font-weight: 300;
         }
 
-        .hero-content button {
+        .hero-content .button {
             font-family: 'Dosis', sans-serif;
             font-size: 1rem;
             font-weight: 500;
             border: none;
-            outline: none;
             background: none;
             text-decoration: underline;
+            cursor: pointer;
         }
     }

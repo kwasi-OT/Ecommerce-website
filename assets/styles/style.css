@@ -116,6 +116,73 @@
         cursor: pointer;
     }
 
+    @media (max-width:600px) {
+        .message {
+            border: 1px solid red;
+            margin: 3rem auto;
+            width: 92%;
+            height: 18.69rem;
+            display: flex;
+            flex: 0 1 auto;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .msg {
+            border: 1px solid green;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    /* settings for tablets */
+    @media (min-width:601px) {
+        .hero-content {
+            width: 63.1%;
+            height: 12.75rem;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.80);
+        }
+
+        .hero-content h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.88rem;
+            font-weight: 300;
+        }
+
+        .hero-content .button {
+            font-family: 'Dosis', sans-serif;
+            font-size: 1rem;
+            font-weight: 500;
+            border: none;
+            background: none;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .message {
+            border: 1px solid red;
+            margin: 3rem auto;
+            width: 92%;
+            height: 18.69rem;
+            display: flex;
+            flex: 0 1 auto;
+            justify-content: space-between;
+        }
+        .msg {
+            border: 1px solid green;
+            width: 49%;
+            height: 100%;
+        }
+
+        
+    }
+
+
     /* desktop styling */
     @media (min-width:900px) {
         .nav-menu {
@@ -145,7 +212,8 @@
         }
 
         .hero-content {
-            width: 32.56rem;
+            width: 63.1%;
+            max-width: 32.56rem;
             height: 12.75rem;
             margin: auto;
             display: flex;
@@ -170,5 +238,21 @@
             background: none;
             text-decoration: underline;
             cursor: pointer;
+        }
+
+        .message {
+            border: 1px solid red;
+            margin: 3rem auto;
+            width: 92%;
+            height: 18.69rem;
+            display: flex;
+            flex: 0 1 auto;
+            justify-content: space-between;
+        }
+
+        .msg {
+            border: 1px solid green;
+            width: 49%;
+            height: 100%;
         }
     }

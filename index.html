@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d49c387940.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
     <!-- hero section -->
@@ -35,13 +35,13 @@
                     </nav>
                     <div class="h-child header-icons">
                         <a href="#">
-                            <img src="./assets/images/user.png" alt="user icon">
+                            <i data-feather="user"></i>
                         </a>
                         <a href="#">
-                            <img src="./assets/images/shopping-cart.png" alt="shopping cart icon">
+                            <i data-feather="shopping-cart"></i>
                         </a>
                         <a href="#">
-                            <img src="./assets/images/menu.png" alt="mobile menu icon">
+                            <i data-feather="menu"></i>
                         </a>
                     </div>
                 </header>
@@ -72,5 +72,8 @@
             </div>
         </div>
     </section>
+    <script>
+        feather.replace()
+      </script>
 </body>
 </html>

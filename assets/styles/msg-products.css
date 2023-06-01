@@ -142,5 +142,73 @@
 .product {
     width: 100%;
     height: 21.88rem;
-    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.products h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1.88rem;
+    /* line-height: 1.56rem; */
+}
+
+.product h2 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+}
+
+.pro1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/13.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/2\ \(3\).webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/3.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/4.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/5.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/6.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/7.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.pro8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/8.webp);
+    background-position: center;
+    background-size: cover;
 }

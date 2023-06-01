@@ -49,6 +49,7 @@
     display: block;
     float: right;
     padding-top: 1rem;
+    padding-left: 0.5rem;
 }
 
 
@@ -70,10 +71,10 @@
     }
 
     /* word wrap to move "collections" to new line */
-.break::before {
-    content: "\a";
-    white-space: pre;
-}
+    .break::before {
+        content: "\a";
+        white-space: pre;
+    }
 }
 
 
@@ -93,10 +94,10 @@
     } 
 
     /* word wrap to move "collections" to new line */
-.break::before {
-    content: "\a";
-    white-space: pre;
-}
+    .break::before {
+        content: "\a";
+        white-space: pre;
+    }
 }
 
 
@@ -136,8 +137,6 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 1rem;
 }
 
@@ -160,12 +159,21 @@
     line-height: 1.56rem;
 }
 
-.product h2 p {
+
+.product h2 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
+    font-weight: 400;
+    font-size: 1.2rem;
     line-height: 1.25rem;
 }
+
+.product p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.25rem;
+}
+
 
 .pro1 {
     background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/13.webp);
@@ -231,11 +239,9 @@
         width: 100%;
         height: auto;
         display: flex;
-        flex: 1 1 0;
+        flex: 1 0 auto;
         flex-direction: row;
         flex-wrap: wrap;
-        /* justify-content: center; */
-        /* align-items: center; */
         gap: 1rem;
     }
     
@@ -247,16 +253,15 @@
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
-        /* text-align: center; */
         color: #FFFFFF;
     }
 
-    .product h2 p {
+    /* .product h2 {
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
-        font-size: 0.8rem;
+        font-size: 1rem;
         line-height: 1.25rem;
-    }
+    } */
 
     /* word wrap to move "collections" to new line */
     .break::before {
@@ -282,11 +287,9 @@
         width: 100%;
         height: auto;
         display: flex;
-        flex: 1 1 0;
+        flex: 1 0 auto;
         flex-direction: row;
         flex-wrap: wrap;
-        /* justify-content: center; */
-        /* align-items: center; */
         gap: 1rem;
     }
     
@@ -301,12 +304,13 @@
         color: #FFFFFF;
     }
 
-    .product h2 p {
+    /* .product h2 p {
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
-        font-size: 0.2rem;
+        font-size: 0.6rem;
         line-height: 1.25rem;
-    }
+        padding: 1.5rem;
+    } */
 
     /* word wrap to move "collections" to new line */
     .break1::before {

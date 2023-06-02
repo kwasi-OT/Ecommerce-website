@@ -256,13 +256,6 @@
         color: #FFFFFF;
     }
 
-    /* .product h2 {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 1rem;
-        line-height: 1.25rem;
-    } */
-
     /* word wrap to move "collections" to new line */
     .break::before {
         content: "\a";
@@ -303,14 +296,6 @@
         gap: 1.5rem;
         color: #FFFFFF;
     }
-
-    /* .product h2 p {
-        font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 0.6rem;
-        line-height: 1.25rem;
-        padding: 1.5rem;
-    } */
 
     /* word wrap to move "collections" to new line */
     .break1::before {

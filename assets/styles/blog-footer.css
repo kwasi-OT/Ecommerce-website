@@ -120,7 +120,7 @@
 
 /* set background image, position and size for each article */
 .article1 {
-    background-image: url(./assets/images/1\ \(2\).jpg);
+    background-image: url(../images/1\ \(2\).jpg);
     background-position: center;
     background-size: cover;
 } 

@@ -1,6 +1,6 @@
 /* left and right containers for message area */
 .left {
-    background-image: url(/assets/images/1.webp);
+    background-image: url(./assets/images/1.webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -32,7 +32,7 @@
 
 
 .right {
-    background-image: url(/assets/images/2\ \(2\).webp);
+    background-image: url(./assets/images/2\ \(2\).webp);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -177,49 +177,49 @@
 
 
 .pro1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/13.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/images/13.webp);
     background-position: center;
     background-size: cover;
 }
 
 .pro2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/2\ \(3\).webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/images/2\ \(3\).webp);
     background-position: center;
     background-size: cover;
 }
 
 .pro3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/3.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/images/3.webp);
     background-position: center;
     background-size: cover;
 }
 
 .pro4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/4.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/images/4.webp);
     background-position: center;
     background-size: cover;
 }
 
 .pro5 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/5.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/images/5.webp);
     background-position: center;
     background-size: cover;
 }
 
 .pro6 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/6.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/images/6.webp);
     background-position: center;
     background-size: cover;
 }
 
 .pro7 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/7.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/images/7.webp);
     background-position: center;
     background-size: cover;
 }
 
 .pro8 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(/assets/images/8.webp);
+    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(./assets/images/8.webp);
     background-position: center;
     background-size: cover;
 }

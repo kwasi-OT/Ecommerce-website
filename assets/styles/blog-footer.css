@@ -120,19 +120,19 @@
 
 /* set background image, position and size for each article */
 .article1 {
-    background-image: url(/assets/images/1\ \(2\).jpg);
+    background-image: url(./assets/images/1\ \(2\).jpg);
     background-position: center;
     background-size: cover;
 } 
 
 .article2 {
-    background-image: url(/assets/images/2\ \(4\).jpg);
+    background-image: url(./assets/images/2\ \(4\).jpg);
     background-position: center;
     background-size: cover;
 } 
 
 .article3 {
-    background-image: url(/assets/images/3\ \(1\).jpg);
+    background-image: url(./assets/images/3\ \(1\).jpg);
     background-position: center;
     background-size: cover;
 } 

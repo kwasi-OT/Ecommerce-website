@@ -121,6 +121,7 @@
 }
 /* end of message section */
 
+
 /*start of products section styling */
 .products {
     width: 92%;
@@ -138,19 +139,19 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .product {
     width: 100%;
-    height: 21.88rem;
+    height: 25.88rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    text-align: center;
-    color: #FFFFFF;
+    /* text-align: center;
+    color: #FFFFFF; */
 }
 
 .products h1 {
@@ -175,54 +176,23 @@
     line-height: 1.25rem;
 }
 
-
-.pro1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../images/13.webp);
-    background-position: center;
-    background-size: cover;
+.pro-img {
+    width: 100%;
+    height: 19.88rem;
 }
 
-.pro2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../images/2\ \(3\).webp);
-    background-position: center;
-    background-size: cover;
+.pro-img img{
+    width: 100%;
+    height: 100%;
 }
 
-.pro3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../images/3.webp);
-    background-position: center;
-    background-size: cover;
+.pro-desc {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    color: #000;
 }
 
-.pro4 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../images/4.webp);
-    background-position: center;
-    background-size: cover;
-}
-
-.pro5 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../images/5.webp);
-    background-position: center;
-    background-size: cover;
-}
-
-.pro6 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../images/6.webp);
-    background-position: center;
-    background-size: cover;
-}
-
-.pro7 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../images/7.webp);
-    background-position: center;
-    background-size: cover;
-}
-
-.pro8 {
-    background: linear-gradient(rgba(0, 0, 0, 0.40), rgba(0, 0, 0, 0.40)), url(../images/8.webp);
-    background-position: center;
-    background-size: cover;
-}
 
 @media (min-width:601px) and (max-width:899px) {
     .products {
@@ -243,7 +213,7 @@
         flex: 1 0 auto;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 2rem;
     }
     
     .product {
@@ -254,14 +224,31 @@
         justify-content: center;
         align-items: center;
         gap: 1.5rem;
-        color: #FFFFFF;
+        /* color: #FFFFFF; */
+    }
+
+    .pro-img {
+        width: 100%;
+        height: 11.75rem;
+    }
+    
+    .pro-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .pro-desc {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        color: #000;
     }
 
     /* word wrap to move "collections" to new line */
-    .break::before {
+    /* .break::before {
         content: "\a";
         white-space: pre;
-    }
+    } */
 }
 
 /* desktop styling */
@@ -284,7 +271,7 @@
         flex: 1 0 auto;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 2rem;
     }
     
     .product {
@@ -292,15 +279,33 @@
         height: 17.50rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         gap: 1.5rem;
-        color: #FFFFFF;
+        /* color: #FFFFFF; */
+    }
+
+    .pro-img {
+        width: 100%;
+        height: 16.50rem;
+    }
+    
+    .pro-img img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .pro-desc {
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        line-height: 0.5rem;
+        color: #000;
     }
 
     /* word wrap to move "collections" to new line */
-    .break1::before {
+    /* .break1::before {
         content: "\a";
         white-space: pre;
-    }
+    } */
 }
